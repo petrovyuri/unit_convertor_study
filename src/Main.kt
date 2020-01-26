@@ -1,5 +1,3 @@
-package converter
-
 import java.util.*
 
 var inValue: Double = 0.0
@@ -7,6 +5,8 @@ lateinit var fromType: String
 lateinit var toType: String
 lateinit var currentFromType: Type
 lateinit var currentToType: Type
+
+
 
 data class Type(val courtName: String,
                 val singularName: String,
